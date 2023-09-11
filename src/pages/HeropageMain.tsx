@@ -2,7 +2,9 @@
 import styled from "styled-components"
 import video from "../asssets/pexels-francesco-ungaro-17137721.jpg"
 import {FaSearch} from "react-icons/fa"
+import React from "react"
 const HeropageMain = ()=>{
+
     return(
         <div>
   <Container>
@@ -17,7 +19,7 @@ and Autors</Text>
 <Input placeholder="Search By Author Name">
 </Input>
 </Div>
-</Hold>
+</Hold> 
   </Container>
         </div>
     );
